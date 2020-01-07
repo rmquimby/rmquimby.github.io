@@ -1,0 +1,103 @@
+body { background-color: black;
+     background-image: url(images/purple_black.png);
+     background-repeat: repeat-x;
+     color: white;
+ }
+
+.pubs {
+  padding-left: 28pt;
+  text-indent: -28pt;
+}
+
+nav {
+    display: inline;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navi {
+  font-family:'Helvetica', 'Arial', 'Sans-Serif';
+  display: inline;
+  list-style: none;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.bigname {
+  font-size: 36pt;
+  font-weight: bold;
+  margin-top: 0.0em;
+  line-height: 0.4em;
+}
+
+a {
+ text-decoration: underline;
+  color: white;
+}
+
+a.ipmu {
+  font-size: 18pt;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+}
+
+.thumbleft {
+  vertical-align: top;
+  float: right;
+  margin-right: 35px;
+}
+
+.thumbright {
+  vertical-align: top;
+  float: left;
+  margin-left: 35px;
+}
+
+.inset {
+   margin-left: 5em;
+}
+
+.titleblock {
+  height 300px;
+}
+
+.shadow {
+  -moz-box-shadow: 0px 0px 5px #555;
+  -webkit-box-shadow: 0px 0px 5px #555;
+  box-shadow: 0px 0px 5px #555;
+}
+
+.imtxt {
+  vertical-align:middle;
+}
+
+.title { 
+  font-family: new century schoolbook, Times New Roman, serif; 
+  font-size: 16pt; 
+  font-weight: bold;
+  margin-bottom: 0.25em;
+  margin-top: 1em;
+  text-align: left;
+}
+
+img.floatLeft { 
+    float: left; 
+    margin-right: 15px; 
+    margin-top: 25;
+}
+
+img.floatRight { 
+    float: right; 
+    margin-left: 15px; 
+    margin-top: 25;
+    margin-bottom: 25;
+}
+
+p.firstp:first-letter {
+ font-size : 2.5em;
+}
+
+p.firstp:first-line { 
+  line-height: 1em; 
+}
