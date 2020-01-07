@@ -1,0 +1,19 @@
+# Compiled files
+*.py[co]
+*.a
+*.o
+*.so
+__pycache__
+
+# Other generated files
+*/version.py
+*/cython_version.py
+htmlcov
+.coverage
+.ipynb_checkpoints/
+
+# Other
+*~
+
+# Mac OSX
+.DS_Store
